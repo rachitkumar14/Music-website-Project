@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music website</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+body{
+    background-color: rgb(58, 56, 56);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+button{
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: rgb(244, 240, 247);
+    border: 2px solid rgb(56, 55, 55);
+    padding: 10px;
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    gap: 350px;
+
+}
+.nav-logo{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 30px;
+}
+nav img{
+    height: 40px;
+    width: 80px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+}
+/* main section */
+main{
+    display: flex;
+    justify-content: space-around;
+}
+main h1{
+    font-size: 50px;
+    color: rgb(250, 250, 68);
+}
+main p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.main-rightpart-images img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+#third-image img{
+    width: 405px;
+}
+.left-part-data{
+    margin: 86px;
+}
+ a:hover{
+    color: lightgreen;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.nav-items a:hover{
+    text-decoration: underline;
+}
+/* main section completed */
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer:hover{
+    background-color:black;
+    color: white;
+}
+</style>
+<body>
+    <!-- Header -->
+    <header>
+    <nav>
+        <div class="nav-logo">
+            <img src="assests/logo image.webp" alt="Logo" />
+            <h1><a href="/">Calm</a></h1>
+            </div>
+            <div class="nav-items">
+            <a href="/">Blog</a>
+            <a href="/">Calm Playlist</a>
+            <a href="/">Join Calm</a>
+        </div>
+    </nav>
+    </header>
+    <!-- Hero section -->
+    <main >
+        <!-- Left part -->
+        <div class="left-part-data">
+            <h1>Be Focus and <br> Productive</h1>
+        <p>
+            Not just an ordinary headphones. It's designed for meditation.
+        </p>
+        
+        <button>Learn more</button>
+    </div>
+        <!-- Right part -->
+        <div class="main-rightpart-images">
+            <img src="assests/headfone boy.jpg" alt="Image" height="100px " width="100px"/>
+            <img src="assests/headfone girl.jpg" alt="Image" height="100px" width="100px"/>
+           <br>
+            <span id="third-image"><img src="assests/headfone man.jpg" alt="Image" height="100px" width="100px"/></span>
+            </div>
+           
+    </main>
+    <footer>
+        <h2>Created by Rachit Kumar</h2>
+    </footer>
+</body>
+</html>
